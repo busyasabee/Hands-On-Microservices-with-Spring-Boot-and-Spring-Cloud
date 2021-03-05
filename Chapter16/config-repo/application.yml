@@ -38,7 +38,9 @@ spring.kafka.bootstrap-servers: kafka:9092
 
 ---
 spring.profiles: prod
-spring.rabbitmq.host: 172.17.0.1
+spring.rabbitmq.host: 172.21.0.1
+#spring.data.mongodb.host: 172.21.0.1
+#spring.data.mongodb.uri: mongodb://172.21.0.1
 
 # Only allow management endpoints over http in production for info, health and circuitbreakerevents
 management.endpoints.web.exposure.include: health,info,circuitbreakerevents
