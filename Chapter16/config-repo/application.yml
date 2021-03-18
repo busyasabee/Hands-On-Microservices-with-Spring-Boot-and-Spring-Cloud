@@ -38,7 +38,7 @@ spring.kafka.bootstrap-servers: kafka:9092
 
 ---
 spring.profiles: prod
-spring.rabbitmq.host: 172.21.0.1
+spring.rabbitmq.host: 172.19.0.1
 #spring.data.mongodb.host: 172.21.0.1
 #spring.data.mongodb.uri: mongodb://172.21.0.1
 
