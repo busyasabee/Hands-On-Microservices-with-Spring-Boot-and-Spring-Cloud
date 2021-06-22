@@ -23,8 +23,11 @@ version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
+//	allowInsecureProtocol = true;
 	mavenCentral()
-	maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+	maven {
+		allowInsecureProtocol = true
+		url = 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
 }
 
 dependencies {

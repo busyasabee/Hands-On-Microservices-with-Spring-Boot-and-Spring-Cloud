@@ -26,7 +26,9 @@ ext {
 
 repositories {
 	mavenCentral()
-    maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+    maven {
+		allowInsecureProtocol = true
+		url = 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
 }
 
 dependencies {
